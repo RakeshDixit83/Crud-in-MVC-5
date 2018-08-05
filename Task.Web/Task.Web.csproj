@@ -214,7 +214,7 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessEntity\Task.Entity.csproj">
+    <ProjectReference Include="..\Task.Entity\Task.Entity.csproj">
       <Project>{429492d6-df02-4312-adc8-65996c439ba6}</Project>
       <Name>Task.Entity</Name>
     </ProjectReference>

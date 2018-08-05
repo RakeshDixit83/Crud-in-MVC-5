@@ -10,6 +10,7 @@ namespace Task.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private string _url = "http://localhost:56925/";
         public ActionResult Index()
         {
            var data =  GetStudentsAsync();
@@ -17,8 +18,6 @@ namespace Task.Web.Controllers
         }
         public ActionResult SaveStudent()
         {
-            //SaveStudentsAsync(new Student { ID = 1, Name = "abc", FatherName = "def", Address = "ghi", Standerd = "1" });
-
             ViewBag.Message = "Your application description page.";
 
             return View();
@@ -41,10 +40,9 @@ namespace Task.Web.Controllers
         private List<Student> GetStudentsAsync()
         {
             List<Student> returnData = null;
-            string url = "http://localhost:49875/";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(url);
+                client.BaseAddress = new Uri(_url);
                 //HTTP GET
                 var responseTask = client.GetAsync("api/data").GetAwaiter().GetResult();
 
@@ -62,10 +60,9 @@ namespace Task.Web.Controllers
 
         private void SaveStudentsAsync(Student student)
         {
-            string url = "http://localhost:49875/";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(url+ "api/data");
+                client.BaseAddress = new Uri(_url+ "api/data");
                 //HTTP GET
                 var putTask = client.PutAsJsonAsync<Student>("data",student).GetAwaiter().GetResult();
 
@@ -83,10 +80,9 @@ namespace Task.Web.Controllers
         private Student EditStudentsAsync(Student student)
         {
             Student returnData = null;
-            string url = "http://localhost:49875/";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(url);
+                client.BaseAddress = new Uri(_url);
                 //HTTP GET
                 var putTask = client.PutAsJsonAsync<Student>("data", student).GetAwaiter().GetResult();
 
@@ -104,10 +100,9 @@ namespace Task.Web.Controllers
         }
         private void DeleteStudentsAsync(int id)
         {
-            string url = "http://localhost:49875/";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(url);
+                client.BaseAddress = new Uri(_url);
                 //HTTP GET
                 var responseTask = client.DeleteAsync("api/data/" + id.ToString()).GetAwaiter().GetResult();
 

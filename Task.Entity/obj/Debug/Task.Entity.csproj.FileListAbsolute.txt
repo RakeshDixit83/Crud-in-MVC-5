@@ -4,3 +4,9 @@ C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entit
 C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.dll
 C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.pdb
 C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.csprojAssemblyReference.cache
+D:\POC\Solution1\Solution1\Task.Entity\bin\Debug\Task.Entity.dll
+D:\POC\Solution1\Solution1\Task.Entity\bin\Debug\Task.Entity.pdb
+D:\POC\Solution1\Solution1\Task.Entity\obj\Debug\Task.Entity.csprojAssemblyReference.cache
+D:\POC\Solution1\Solution1\Task.Entity\obj\Debug\Task.Entity.csproj.CoreCompileInputs.cache
+D:\POC\Solution1\Solution1\Task.Entity\obj\Debug\Task.Entity.dll
+D:\POC\Solution1\Solution1\Task.Entity\obj\Debug\Task.Entity.pdb
