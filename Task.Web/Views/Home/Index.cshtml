@@ -1,0 +1,57 @@
+﻿@model List<Task.Entity.Student>
+@{
+    /**/
+
+    ViewBag.Title = "Home Page";
+}
+@using (@Html.BeginForm("SaveStudent", "Home", FormMethod.Post))
+{
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Display("ID")
+            </th>
+            <th>
+                @Html.Display("Name")
+            </th>
+            <th>
+                @Html.Display("Father Name")
+            </th>
+            <th>
+                @Html.Display("Standard")
+            </th>
+            <th>
+                @Html.Display("Address")
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FatherName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Standerd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+

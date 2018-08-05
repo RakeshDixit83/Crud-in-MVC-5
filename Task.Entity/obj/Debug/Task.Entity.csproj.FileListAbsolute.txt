@@ -1,0 +1,6 @@
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\bin\Debug\Task.Entity.dll
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\bin\Debug\Task.Entity.pdb
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.csproj.CoreCompileInputs.cache
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.dll
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.pdb
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\Task.Entity.csprojAssemblyReference.cache

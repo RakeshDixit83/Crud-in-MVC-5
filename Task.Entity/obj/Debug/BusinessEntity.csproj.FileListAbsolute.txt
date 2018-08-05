@@ -1,0 +1,5 @@
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\BusinessEntity.csproj.CoreCompileInputs.cache
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\rakesh.dixit\source\repos\Solution1\BusinessEntity\obj\Debug\BusinessEntity.pdb
